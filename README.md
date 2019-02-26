@@ -6,11 +6,11 @@ Eğer SSH sunucunuzdaki web.itu.edu.tr adlı 'dosyayı' silerseniz web sitenizi 
 
 SSH sunucunuzun terminaline erişin, bunu kullandığınız programın konsol kısmından veya linux terminalden bağlanarak gerçekleştirebilirsiniz.
 
-Aşağıda verilen kodlarda [itukullanıcıadı] kısımlarını kendi kullanıcı adınız ile değiştiriniz. Örneğin: altinpinar18 gibi.
+Aşağıda verilen kodlarda [itüKullanıcıAdı] kısımlarını kendi kullanıcı adınız ile değiştiriniz. Örneğin: altinpinar18 gibi.
 
 1. Terminal ile SSH'a bağlanma
 ```shell
-ssh -p 22 [itukullaniciadi]@ssh.itu.edu.tr
+ssh -p 22 [itüKullanıcıAdı]@ssh.itu.edu.tr
 ```
 yazıp daha sonra şifrenizi giriniz.
 
@@ -22,5 +22,5 @@ rm web.itu.edu.tr
 
 3. 
 ```shell
-ln -s ../../web.itu.edu.tr/altinpinar18 web.itu.edu.tr
+ln -s ../../web.itu.edu.tr/[itüKullanıcıAdı] web.itu.edu.tr
 ```
