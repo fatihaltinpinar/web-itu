@@ -15,7 +15,7 @@ ssh -p 22 [ituUserName]@ssh.itu.edu.tr
 
 2. For cleaning your attempts to bring your webpage. Be careful to __NOT put / at the end of the code__.
 ```shell
-rm web.itu.edu.tr
+rm -r web.itu.edu.tr
 ```
 
 3. 
