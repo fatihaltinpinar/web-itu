@@ -17,7 +17,7 @@ yazıp daha sonra şifrenizi giriniz.
 
 2. Önceden birşeyler denemiş iseniz o dosyayı silmek için aşağıdaki kodu giriniz. __sonuna / koymayın!__
 ```shell
-rm web.itu.edu.tr
+rm -r web.itu.edu.tr
 ```
 
 3. 
